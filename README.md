@@ -5,4 +5,7 @@ This command line program allows the user to simply type 'CX <program_name>' to 
 
 However, CX is not intended to replace utilities such as Make or CMake. It is not optimised for speed (which may impact million-or-so line programs), does not have the flexibility of Make or CMake, and is blind to which files have been modified and instead recompiles completely on each run (unless the user specifies otherwise).
 
+
+For those who are wondering, it's called 'CX' because: 'C' as in C/C++ language, and 'X' because it's close to 'C' on a QWERTY keyboard and thus quick to type!
+
 Happy hunting!
