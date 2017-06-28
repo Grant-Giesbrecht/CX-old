@@ -1,0 +1,34 @@
+--------------------------------------------
+---------------- CX Help -------------------
+
+CX CLI USAGE:
+	CX <filename>
+		or
+	CX <CLI_option>
+	
+CX CLI OPTIONS:
+	-ABOUT: Reports CX version information
+	-HELP: Calls help screen
+	-HELP!: Calls detailed help screen
+	-VERSION: Reports version
+	
+CX works by reading commands in C/C++ source code and compiles
+and runs the file per the instructions listed in the file. The 
+origional author must list commands inorder for CX to work.
+
+To distinguish CX commands from standard C/C++ comments, the
+CXHAIL command must precede all CX statements.
+
+CX COMMANDS:
+	NCOMPILE - Tell CX not to automatically compile specified file(s)
+		ALL - Specify all files
+		<FILENAME> - Specify <FILENAME>
+	COMPILER - Tell CX which C/C++ compiler to use
+		<NEW COMPILER> - New compiler
+	SILENCE - Silence CX output
+	SHOW_SETTINGS - Show CX settings before compile & run
+	SHOW_DEPENDENCIES - Show CX detected file dependencies
+	STATUS_REPORT - Report status as CX progresses
+	LIST_COMMANDS - Tell CX to report the commands it uses to compile and run
+	COMMAND - Explicitly specify the command for CX to use
+		<COMMAND>
